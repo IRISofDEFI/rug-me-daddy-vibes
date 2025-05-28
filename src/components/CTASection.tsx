@@ -49,21 +49,31 @@ const CTASection = () => {
             {/* Social Links */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               
-              <div className="bg-blue-600 p-6 rounded-2xl border-4 border-white shadow-xl transform rotate-1 hover:rotate-3 transition-transform">
+              <a 
+                href="https://t.me/RugMeDaddyXYZ" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-blue-600 p-6 rounded-2xl border-4 border-white shadow-xl transform rotate-1 hover:rotate-3 transition-transform cursor-pointer"
+              >
                 <div className="text-center">
                   <div className="text-4xl mb-2">💬</div>
                   <p className="font-bungee text-white">JOIN TELEGRAM</p>
                   <p className="font-fredoka text-blue-200 text-sm">Where degeneracy lives</p>
                 </div>
-              </div>
+              </a>
               
-              <div className="bg-black p-6 rounded-2xl border-4 border-white shadow-xl transform -rotate-1 hover:-rotate-3 transition-transform">
+              <a 
+                href="https://x.com/_RugMeDaddy_/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-black p-6 rounded-2xl border-4 border-white shadow-xl transform -rotate-1 hover:-rotate-3 transition-transform cursor-pointer"
+              >
                 <div className="text-center">
                   <div className="text-4xl mb-2">🐦</div>
                   <p className="font-bungee text-white">FOLLOW TWITTER</p>
                   <p className="font-fredoka text-gray-300 text-sm">For memes and chaos</p>
                 </div>
-              </div>
+              </a>
               
               <div className="bg-purple-600 p-6 rounded-2xl border-4 border-white shadow-xl transform rotate-1 hover:rotate-3 transition-transform">
                 <div className="text-center">
