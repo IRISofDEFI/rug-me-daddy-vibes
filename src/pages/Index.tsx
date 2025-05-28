@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
 import ManifestoSection from '../components/ManifestoSection';
 import RoadmapSection from '../components/RoadmapSection';
+import ContractAddressSection from '../components/ContractAddressSection';
 import CTASection from '../components/CTASection';
 import FloatingElements from '../components/FloatingElements';
 
@@ -17,6 +18,7 @@ const Index = () => {
         <AboutSection />
         <ManifestoSection />
         <RoadmapSection />
+        <ContractAddressSection />
         <CTASection />
       </main>
     </div>

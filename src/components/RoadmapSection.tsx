@@ -10,7 +10,15 @@ const RoadmapSection = () => {
 
   return (
     <section className="py-20 px-4 relative">
-      <div className="max-w-6xl mx-auto">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center opacity-20 rounded-3xl"
+        style={{
+          backgroundImage: 'url(/lovable-uploads/576b27f6-07de-4831-b2ce-93dd6130309d.png)'
+        }}
+      ></div>
+      
+      <div className="max-w-6xl mx-auto relative z-10">
         
         <div className="bg-gradient-to-r from-green-900/90 via-blue-900/90 to-purple-900/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 border-4 border-green-400 shadow-2xl transform rotate-1">
           

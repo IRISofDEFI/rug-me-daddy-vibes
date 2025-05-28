@@ -2,7 +2,15 @@
 const ManifestoSection = () => {
   return (
     <section className="py-20 px-4 relative">
-      <div className="max-w-6xl mx-auto">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center opacity-20 rounded-3xl"
+        style={{
+          backgroundImage: 'url(/lovable-uploads/576b27f6-07de-4831-b2ce-93dd6130309d.png)'
+        }}
+      ></div>
+      
+      <div className="max-w-6xl mx-auto relative z-10">
         
         {/* Welcome Home Section */}
         <div className="mb-16">
