@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -18,6 +19,12 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'creepster': ['Creepster', 'cursive'],
+				'fredoka': ['Fredoka One', 'cursive'],
+				'bungee': ['Bungee', 'cursive'],
+				'griffy': ['Griffy', 'cursive'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -84,11 +91,38 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0px) rotate(0deg)'
+					},
+					'50%': {
+						transform: 'translateY(-20px) rotate(5deg)'
+					}
+				},
+				'float-reverse': {
+					'0%, 100%': {
+						transform: 'translateY(-10px) rotate(5deg)'
+					},
+					'50%': {
+						transform: 'translateY(10px) rotate(-5deg)'
+					}
+				},
+				'bounce-horizontal': {
+					'0%, 100%': {
+						transform: 'translateX(0px)'
+					},
+					'50%': {
+						transform: 'translateX(10px)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'float-reverse': 'float-reverse 4s ease-in-out infinite',
+				'bounce-horizontal': 'bounce-horizontal 2s ease-in-out infinite',
 			}
 		}
 	},
