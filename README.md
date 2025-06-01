@@ -1,8 +1,8 @@
 # Welcome to your Lovable project
 
-## Project info
+## Project info : Freelance frontend dev for a meme-token project. Live site with responsive design, custom UI, and Web3 integration
 
-**URL**: https://lovable.dev/projects/101661f3-36a8-4f89-879d-7d209f53a144
+**URL**: https://www.ruggmmedaddy.xyz/
 
 ## How can I edit this code?
 
