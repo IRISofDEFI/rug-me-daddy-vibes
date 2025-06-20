@@ -10,7 +10,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/101661f3-36a8-4f89-879d-7d209f53a144) and start prompting.
+Simply visit the [https://www.ruggmmedaddy.xyz/]
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -60,11 +60,11 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## I am not affiliated with this orojecvt just did the website design.
 
-Simply open [Lovable](https://lovable.dev/projects/101661f3-36a8-4f89-879d-7d209f53a144) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+
+
 
 Yes, you can!
 
