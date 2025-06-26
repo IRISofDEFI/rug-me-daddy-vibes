@@ -12,8 +12,6 @@ There are several ways of editing your application.
 
 Simply visit the [https://www.ruggmmedaddy.xyz/]
 
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
@@ -60,7 +58,7 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## I am not affiliated with this orojecvt just did the website design.
+## I am not affiliated with this projecvt just did the website design.
 
 
 
